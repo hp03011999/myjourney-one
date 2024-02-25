@@ -34,6 +34,19 @@ body{
     color: white;
 
 }
+
+.head ul li select{
+    background-color: #373636;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    width: 113px;
+    border: none;
+}
+.head ul li select option{
+    background-color: black;
+}
+
 .head ul li{
     list-style: none;
     margin: 0px 17px;
@@ -54,12 +67,13 @@ header{
     color: white;
     padding-right: 96px;
 }
-.head2 p{
+.head2 input{
     border: 2px solid rgba(255,255,255,.1);
     background-color: transparent;
     color: #999;
     padding: 13px 0px 13px 10px;
     font-size: 14px;
+    width: 100%;
 }
 .head2{
     margin: 18px 0px;
